@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@mipmap/backgound"
+    tools:context="com.sortout.fjn.commonlyusedguidepages.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="个人比较喜欢的4种引导页,非原创。保留原作者注释和原地址"
+        android:textColor="#ffffff"
+        android:id="@+id/textView"/>
+
+    <Button
+        android:text="videoView"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:text="Html5"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_alignStart="@+id/button"/>
+
+    <Button
+        android:text="视觉差"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button2"/>
+
+    <Button
+        android:text="普通viewpager"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginTop="15dp"/>
+</RelativeLayout>
